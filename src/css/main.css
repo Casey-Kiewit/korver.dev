@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 2em auto;
+    width: 80%;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: inherit;
+    margin: 0 2em;
+    text-decoration: none;
+}
