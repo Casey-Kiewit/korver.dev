@@ -17,6 +17,7 @@ nav {
 
 nav a {
     color: inherit;
-    margin: 0 2em;
+    font-size: larger;
+    margin: 0 1em;
     text-decoration: none;
 }
