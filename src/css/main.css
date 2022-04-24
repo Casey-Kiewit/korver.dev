@@ -1,23 +1,32 @@
 body {
     background-color: black;
     color: white;
-    margin: 2em auto;
+    margin: 0 auto;
     width: 80%;
 }
 
-header {
+nav {
     align-items: center;
     display: flex;
-    justify-content: space-between;
-}
-
-nav {
-    display: flex;
+    gap: 2em;
+    height: inherit;
 }
 
 nav a {
     color: inherit;
-    font-size: larger;
-    margin: 0 1em;
+    font-size: 2em;
     text-decoration: none;
+}
+
+header, footer {
+    align-items: center;
+    display: flex;
+    height: 8em;
+    justify-content: space-between;
+}
+
+footer img {
+    height: auto;
+    width: 1em;
+    object-fit: contain;
 }
