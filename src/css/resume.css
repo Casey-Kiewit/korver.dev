@@ -16,6 +16,10 @@ section {
     outline-width: 1px;
 }
 
+section h2 {
+    text-align: center;
+}
+
 #jobs {
     grid-column: 1;
     grid-row: 1 / span 3;
