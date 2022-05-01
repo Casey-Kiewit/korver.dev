@@ -14,7 +14,7 @@ section h2 {
 
 #jobs {
     grid-column: 1;
-    grid-row: 1 / span 3;
+    grid-row: 1 / span 2;
 }
 
 #education {
@@ -24,10 +24,16 @@ section h2 {
 
 #contact {
     grid-column: 1;
-    grid-row: 4;
+    grid-row: 3 / span 4;
 }
 
 #skills {
     grid-column: 2;
     grid-row: 2 / span 4;
+}
+
+@media print {
+    header, footer {
+        display: none;
+    }
 }
