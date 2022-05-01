@@ -1,5 +1,7 @@
 main {
     font-size: larger;
+    outline: 1px solid white;
+    padding: 1em;
     width: 210mm;
 }
 
