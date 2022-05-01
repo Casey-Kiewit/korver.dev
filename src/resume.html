@@ -11,7 +11,15 @@
 
 <body>
     <header>
-        <object type="image/svg+xml" data="img/logo.svg">Logo</object>
+        <svg width="80" height="80">
+            <rect id="pixel" width="20" height="20" rx="4"/>
+            <use href="#pixel" x="30"/>
+            <use href="#pixel" x="60"/>
+            <use href="#pixel" y="30"/>
+            <use href="#pixel" y="60"/>
+            <use href="#pixel" x="30" y="60"/>
+            <use href="#pixel" x="60" y="60"/>
+        </svg>
         
         <nav>
             <a href="index.html">Home</a>

@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+svg {
+    fill: white;
+}
+
 nav {
     align-items: center;
     display: flex;
