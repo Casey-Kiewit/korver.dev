@@ -1,11 +1,16 @@
+main {
+    font-size: larger;
+    width: 230mm;
+}
+
 main h1 {
     text-align: center;
 }
 
 #grid {
     display: grid;
-    grid: repeat(4, 1fr) / repeat(2, 1fr);
     gap: 1em;
+    grid: repeat(4, 1fr) / repeat(2, 1fr);
 }
 
 section h2 {
@@ -18,21 +23,28 @@ section h2 {
 }
 
 #education {
-    grid-column: 2;
-    grid-row: 1;
-}
-
-#contact {
     grid-column: 1;
-    grid-row: 3 / span 4;
+    grid-row: 3;
 }
 
 #skills {
     grid-column: 2;
-    grid-row: 2 / span 4;
+    grid-row: 1 / span 3;
+}
+
+#contact {
+    align-items: center;
+    display: flex;
+    grid-column: 1 / span 2;
+    grid-row: 4;
+    justify-content: space-between;
 }
 
 @media print {
+    body {
+        width: 100%;
+    }
+
     header, footer {
         display: none !important;
     }

@@ -30,6 +30,10 @@ ul, dd, dt {
     fill: white;
 }
 
+main {
+    margin: 0 auto;
+}
+
 /* Footer */
 
 footer img {
@@ -43,6 +47,7 @@ footer img {
 header, footer {
     align-items: center;
     display: flex;
+    font-size: 2em;
     height: 8em;
     justify-content: space-between;
 }
@@ -52,8 +57,4 @@ nav {
     display: flex;
     gap: 2em;
     height: inherit;
-}
-
-nav a {
-    font-size: 2em;
 }
