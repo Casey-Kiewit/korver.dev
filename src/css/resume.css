@@ -22,7 +22,7 @@ section h2 {
 }
 
 #jobs, #education, #contact {
-    padding: 1em;
+    margin: 1em;
 }
 
 #jobs {
