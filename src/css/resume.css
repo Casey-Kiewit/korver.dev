@@ -5,11 +5,7 @@ main h1 {
 #grid {
     display: grid;
     grid: repeat(4, 1fr) / repeat(2, 1fr);
-}
-
-section {
-    outline-style: solid;
-    outline-width: 1px;
+    gap: 1em;
 }
 
 section h2 {
