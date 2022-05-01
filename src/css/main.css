@@ -1,3 +1,5 @@
+/* General */
+
 body {
     background-color: black;
     color: white;
@@ -10,8 +12,39 @@ a {
     text-decoration: none;
 }
 
-svg {
+a:active, a:focus, a:hover {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul, dd, dt {
+    line-height: 1.5;
+}
+
+/* Header */
+
+#logo {
     fill: white;
+}
+
+/* Footer */
+
+footer img {
+    height: auto;
+    width: 1em;
+    object-fit: contain;
+}
+
+/* Header, Footer */
+
+header, footer {
+    align-items: center;
+    display: flex;
+    height: 8em;
+    justify-content: space-between;
 }
 
 nav {
@@ -23,17 +56,4 @@ nav {
 
 nav a {
     font-size: 2em;
-}
-
-header, footer {
-    align-items: center;
-    display: flex;
-    height: 8em;
-    justify-content: space-between;
-}
-
-footer img {
-    height: auto;
-    width: 1em;
-    object-fit: contain;
 }
