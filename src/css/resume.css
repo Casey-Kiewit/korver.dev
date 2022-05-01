@@ -5,10 +5,6 @@ main h1 {
 #grid {
     display: grid;
     grid: repeat(4, 1fr) / repeat(2, 1fr);
-
-    outline-style: solid;
-    outline-width: 1px;
-    height: 40em;
 }
 
 section {
