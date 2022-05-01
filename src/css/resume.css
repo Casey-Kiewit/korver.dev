@@ -34,6 +34,6 @@ section h2 {
 
 @media print {
     header, footer {
-        display: none;
+        display: none !important;
     }
 }
