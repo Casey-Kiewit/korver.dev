@@ -1,7 +1,7 @@
 main {
     font-size: larger;
     outline: 1px solid white;
-    padding: 1em;
+    padding: 2em;
     width: 210mm;
 }
 
@@ -12,12 +12,17 @@ main h1 {
 #grid {
     display: grid;
     gap: 1em;
-    grid: repeat(4, 1fr) / repeat(2, 1fr);
-    margin: 4em 0;
+    grid: repeat(3, 1fr) / repeat(2, 1fr);
+    margin-top: 4em;
+    margin-bottom: 2em;
 }
 
 section h2 {
     text-align: center;
+}
+
+#jobs, #education, #contact {
+    padding: 1em;
 }
 
 #jobs {
@@ -38,8 +43,6 @@ section h2 {
 #contact {
     align-items: center;
     display: flex;
-    grid-column: 1 / span 2;
-    grid-row: 4;
     justify-content: space-between;
 }
 

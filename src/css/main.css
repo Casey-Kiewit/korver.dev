@@ -25,6 +25,10 @@ ul, dd, dt {
     line-height: 1.5;
 }
 
+dd~dt {
+    margin-top: .5em;
+}
+
 /* Header */
 
 #logo {
