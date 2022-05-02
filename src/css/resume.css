@@ -48,6 +48,8 @@ section h2 {
 
 @media print {
     body {
+        background-color: white;
+        color: black;
         width: 100%;
     }
 
