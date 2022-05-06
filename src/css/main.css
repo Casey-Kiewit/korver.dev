@@ -47,6 +47,10 @@ footer img {
     object-fit: contain;
 }
 
+footer p {
+    font-size: x-small;
+}
+
 /* Header, Footer */
 
 header, footer {
