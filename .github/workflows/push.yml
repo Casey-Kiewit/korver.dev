@@ -4,7 +4,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: korverdev/korver.dev
 
 jobs:
   build-and-push-image:
