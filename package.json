@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Casey-Kiewit/korver.dev#readme",
   "dependencies": {
-    "clean-css-cli": "^5.6.0",
+    "clean-css-cli": "^5.6.1",
     "html-minifier": "^4.0.0"
   }
 }
